@@ -1,0 +1,7 @@
+*{
+    font-family: 'Space Grotesk';
+    transition:  all 0.1s ease;
+}
+.bg-dark{
+    background-color: rgb(65, 64, 64);
+}

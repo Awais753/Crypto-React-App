@@ -1,0 +1,129 @@
+.message{
+    background-color: #FF0055;
+    color: white;
+    font-family: monospace;
+}
+.message::after{
+    
+    content: " ";
+    border-bottom: 4px solid #FF0055;
+    width: 98%;
+    position: absolute;
+    bottom: -3px;
+    left: 1%;
+}
+.message::before{
+    content: " ";
+    border-top: 4px solid #FF0055;
+    width: 98%;
+    position: absolute;
+    top: -3px;
+    left: 1%;
+}
+.message_bottom{
+    width: 6%;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 3px;
+}
+.message_bottom div{
+    animation:float-sub 3s normal infinite;
+    background-color: #FF0055;
+    margin: 0 auto;
+    height: 4px;
+    width: 65%;
+    position: absolute;
+    bottom: -4px;
+    left: 16%;
+}
+.float-effect{
+    animation: float 3s normal infinite;
+}
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-15px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+@keyframes float-sub {
+	0% {
+		transform: translatey(0.20px);
+	}
+	50% {
+		transform: translatey(-0.5px);
+	}
+	100% {
+		transform: translatey(0.20px);
+	}
+}
+
+@keyframes width-message {
+	0% {
+		width: 100%;
+	}
+	50% {
+		width: 90%;
+	}
+	100% {
+		width: 100%;
+	}
+}
+/* 
+
+.card {
+    position: relative;
+    transition: all .5s ease-in;
+    width: 20%;
+  }
+  
+  
+  .card__image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .card__overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: none;
+    transition: .5s ease;
+    background-color: black;
+  }
+  
+  .card:hover .card__overlay {
+    opacity: 0.8;
+  }
+  
+  .overlay__text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .button {
+    background-color: #f05328;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+  } */

@@ -1,0 +1,6 @@
+.hide-switch{
+    transform: translateX(-50px);
+}
+.theme-switch{
+    transition: transform 0.5s ease;
+}
