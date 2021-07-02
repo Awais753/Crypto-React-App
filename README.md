@@ -7,7 +7,7 @@ Fetches NFT products from Opensea.io NFT Market place using OpenseaAPI and rende
 Server was programmed using ExpressJS in NodeJS runtime Enviroment
 
 Pages:
--Home
--Product Detail
+- Home
+- Product Detail
   - Transaction History Filter
--Subscription
+- Subscription
